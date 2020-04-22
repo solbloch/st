@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static char *font = "xos4 Terminess Powerline:style=bold:pixelsize=15:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -117,7 +117,7 @@ static const char *colorname[] = {
  * foreground, background, cursor, reverse cursor
  */
 unsigned int defaultfg = 7;
-unsigned int defaultbg = 0;
+unsigned int defaultbg = 234;
 static unsigned int defaultcs = 256;
 static unsigned int defaultrcs = 257;
 
